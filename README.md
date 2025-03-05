@@ -5,6 +5,6 @@
 - 📫 How to reach me: Don't!
 
 ### My Languages 🍕
-![GitHub Metrics](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/gh-pages/github-metrics.svg)
+![GitHub Metrics](https://raw.githubusercontent.com/juicejully/juicejully/gh-pages/github-metrics.svg)
 
 
