@@ -5,4 +5,4 @@
 - 📫 How to reach me: Don't!
 
 ### My Languages 🍕
-![GitHub Language Stats](https://github.com/juicejully/juicejully/main/github-metrics.svg)
+![GitHub Language Stats](https://github.com/juicejully/juicejully/blob/main/github-metrics.svg)
