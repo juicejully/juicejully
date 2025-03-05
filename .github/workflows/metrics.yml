@@ -1,0 +1,23 @@
+name: Metrics
+on:
+  schedule: 
+    - cron: "0 0 * * *" # Update every day at midnight
+  workflow_dispatch: # Allow manual updates
+  
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub username
+          user: JuiceJully 
+          
+          # Use your personal access token
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Optional, add languages plugin
+          plugin_languages: yes
+          plugin_languages_ignored: html, css # Ignore some languages if you want
+          plugin_languages_limit: 5 # Limit number of languages
