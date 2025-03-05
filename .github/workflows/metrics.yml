@@ -18,7 +18,7 @@ jobs:
           plugin_languages_ignored: html, css # Ignore languages if you want
           plugin_languages_limit: 5 # Limit number of languages
           # Set the output to a publicly accessible URL (hosted externally)
-          output: https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/gh-pages/github-metrics.svg  # External hosted URL
+          output: https://raw.githubusercontent.com/juicejully/juicejully/gh-pages/github-metrics.svg  # External hosted URL
 
       - name: Commit metrics file to gh-pages branch (optional)
         run: |
